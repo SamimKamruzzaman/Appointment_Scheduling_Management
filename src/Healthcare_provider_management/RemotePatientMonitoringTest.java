@@ -140,6 +140,6 @@ public class RemotePatientMonitoringTest {
         RemotePatientMonitoring.PatientData data1 = monitoring.getPatientDataMap().get(patientId);
         RemotePatientMonitoring.PatientData data2 = monitoring.getPatientDataMap().get(patientId2);
         
-        assertNotSame("Patient data for different patients should not be the same", data1, data2);
+        assertNotSame("Patient data for different patients should not be same", data1, data2);
     }
 }
